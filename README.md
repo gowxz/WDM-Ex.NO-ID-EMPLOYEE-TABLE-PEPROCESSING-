@@ -1,18 +1,20 @@
-# WDM-Ex.NO-1D-EMPLOYEE-TABLE-PEPROCESSING-
-Aim:
+# WDM-Ex.NO-1D-EMPLOYEE-TABLE-PEPROCESSING
+## Name: Gowtham S
+## Reg.no: 2305002008
+## Aim:
 To apply Pre-Processing techniques to the training data set of Employee Table
-Description:
+## Description:
 Real world databases are highly influenced to noise, missing and inconsistency due to their queue size so the data can be pre-processed to improve the quality of data and missing results and it also improves the efficiency.
 There are 3 pre-processing techniques they are:
 1)	Add
 2)	Remove
 3)	Normalization
-Creation of Employee Table:
-Procedure:
-1)	Open Start  Programs  Accessories  Notepad
+## Procedure:
+1)	Open Start → Programs → Accessories → Notepad
 2)	Type the following training data set with the help of Notepad for Employee Table.
 
-```@relation employee 
+```
+@relation employee 
 @attribute name {x,y,z,a,b} 
 @attribute id numeric
 @attribute salary {low,medium,high} 
@@ -26,20 +28,20 @@ y,102,high,3,female,251665
 z,103,medium,1,male,240238 
 a,104,low,5,female,200200 
 b,105,high,2,male,240240
-
+```
 3)	After that the file is saved with .arff file format.
-4)	Minimize the arff file and then open Start  Programs  weka-3-4.
+4)	Minimize the arff file and then open Start → Programs → weka-3-4.
 5)	Click on weka-3-4, then Weka dialog box is displayed on the screen.
 6)	In that dialog box there are four modes, click on explorer.
 7)	Explorer shows many options. In that click on ‘open file’ and select the arff file
 8)	Click on edit button which shows employee table on weka.
  
-Training Data Set  Employee Table
+## Training Data Set - Employee Table
 <img width="730" height="791" alt="image" src="https://github.com/user-attachments/assets/918699eb-cdc2-4471-a50f-7fad5b0e330b" />
 
-Add  Pre-Processing Technique:
+## Add Pre-Processing Technique:
 Procedure:
-1)	Start  Programs  Weka-3-4  Weka-3-4
+1)	Start → Programs → Weka-3-4.
 2)	Click on explorer.
 3)	Click on open file.
 4)	Select Employee.arff file and click on open.
@@ -54,13 +56,12 @@ Procedure:
 13)	Save the file.
 14)	Click on the Edit button, it shows a new Employee Table on Weka.
  
-Employee Table after adding new attribute ADDRESS:
-<img width="736" height="793" alt="image" src="https://github.com/user-attachments/assets/d92e4e6b-a630-4c34-aaf5-fc4bd080697c" />
+## Employee Table after adding new attribute ADDRESS:
+<img width="962" height="472" alt="image" src="https://github.com/user-attachments/assets/8e803847-86dc-4e69-a30e-a725d0accbf2" />
 
-
-Remove  Pre-Processing Technique:
+## Remove Pre-Processing Technique:
 Procedure:
-1)	Start  Programs  Weka-3-4  Weka-3-4
+1)	Start →  Programs → Weka-3-4 → Weka-3-4
 2)	Click on explorer.
 3)	Click on open file.
 4)	Select Employee.arff file and click on open.
@@ -72,14 +73,12 @@ Procedure:
 10)	Click Remove button and then Save.
 11)	Click on the Edit button, it shows a new Employee Table on Weka.
  
-Employee Table after removing attributes SALARY, GENDER:
+## Employee Table after removing attributes SALARY, GENDER:
+<img width="1043" height="296" alt="image" src="https://github.com/user-attachments/assets/381d3f16-4956-45ae-a626-c3a8edcaca1b" />
 
-<img width="729" height="787" alt="image" src="https://github.com/user-attachments/assets/b36c7563-94dd-4105-87dd-0784f9d0d9b3" />
-
-
-Normalize  Pre-Processing Technique:
+## Normalize -Pre-Processing Technique:
 Procedure:
-1)	Start  Programs  Weka-3-4  Weka-3-4
+1)	Start → Programs → Weka-3-4 → Weka-3-4
 2)	Click on explorer.
 3)	Click on open file.
 4)	Select Employee.arff file and click on open.
@@ -91,59 +90,9 @@ Procedure:
 10)	Click on Apply button and then Save.
 11)	Click on the Edit button, it shows a new Employee Table with normalized values on Weka.
  
-Employee Table after Normalizing ID, EXP, PHONE:
+## Employee Table after Normalizing ID, EXP, PHONE:
+<img width="836" height="447" alt="image" src="https://github.com/user-attachments/assets/eec64995-1fef-433d-8f1a-f69f1b74d1b3" />
 
-<img width="1112" height="1625" alt="image" src="https://github.com/user-attachments/assets/54b77b62-6b7b-4e73-b250-50b086169a2a" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Output:
-
-Adding Address as an attribute to the table
-
- <img width="923" height="559" alt="image" src="https://github.com/user-attachments/assets/cf9e0d20-4d90-4a8e-94ff-5fd58fb9842b" />
-
-Removing salary and gender attributes from the table
-<img width="942" height="564" alt="image" src="https://github.com/user-attachments/assets/437cda42-136a-4ea4-82ce-26a48685a3d2" />
-
-
-Normalization of attributes
-
-<img width="940" height="568" alt="image" src="https://github.com/user-attachments/assets/888e6beb-d519-4290-bfbe-176936fd5628" />
-
-
-
-
-
-
-
-Result:
+## Result:
 
 Thus, this program has been successfully executed.
